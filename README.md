@@ -38,7 +38,6 @@
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -95,5 +94,23 @@ To get a local copy up and running follow the steps to deploy each project based
 
 7. Create the validator app 3 times (one for each validator node) by following the directions here: [https://github.com/ajkagy/xls20-bridge-validator](https://github.com/ajkagy/xls20-bridge-validator)
     - If all 3 validators are running on the same machine for testing purposes, install each validator in a separate folder.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Adam Kagy - [@xrpl_Adam](https://twitter.com/xrpl_adam) - xrpldev@gmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
