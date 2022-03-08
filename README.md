@@ -32,8 +32,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#webapp">Prerequisites</a></li>
-        <li><a href="#webapp">Installation</a></li>
+        <li><a href="#Prerequisites">Prerequisites</a></li>
+        <li><a href="#Installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
