@@ -32,12 +32,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#webapp">Create Multisig/Validator Keys</a></li>
-        <li><a href="#webapp">ETH Bridge Contract</a></li>
-        <li><a href="#webapp">Web App</a></li>
-        <li><a href="#proxy">Express.js Proxy</a></li>
-        <li><a href="#masterprocess">Master Process</a></li>
-        <li><a href="#masterprocess">Validator</a></li>
+        <li><a href="#webapp">Prerequisites</a></li>
+        <li><a href="#webapp">Installation</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -66,3 +62,31 @@ A one way proof of concept ERC721 to XLS20 decentralized bridge
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow the steps to deploy each project based on the project architecture.
+
+### Prerequisites
+
++ [NodeJs & NPM](https://nodejs.org/en/)
++ [Git](https://git-scm.com/downloads)
++ [.NET 5.0 Core Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
++ [Visual Studio 2019 or greater](https://visualstudio.microsoft.com/downloads/) (Optional: Only for debugging the Bridge Master Process)
+
+### Installation
+
+1. Generate 4 sets of public/private key pairs from the [XRPL Faucet](https://xrpl.org/xrp-testnet-faucet.html) for the XLS-20 Dev Net. Copy to a text file an save for later.
+    - One of the key pairs will be for creating the multi-sig issuer wallet. The remaining 3 keys will be validator keys.
+2. Create a new multisig wallet on the XLS-20 Dev net by following the directions here: [https://github.com/X33-Labs/xrpl-multisig-wallet-creator](https://github.com/X33-Labs/xrpl-multisig-wallet-creator)
+    - input the secret key to one of your generated key pairs into the masterMultiSigAccountSecret variable. Add the remaining 3 public keys into the accountSigners array variable.
+3. Create the Bridge Web App by following the directions here: [https://github.com/ajkagy/xls20-bridge-webapp](https://github.com/ajkagy/xls20-bridge-webapp)
+4. Create the Express.js Proxy by following the directions here: [https://github.com/ajkagy/xls20-bridge-proxy](https://github.com/ajkagy/xls20-bridge-proxy)
+5. Create the C#/.NET Master Process by following the directions here: [https://github.com/ajkagy/xls20-bridge-master](https://github.com/ajkagy/xls20-bridge-master)
+6. Create the validator app for 3 times (one for each validator node) by following the directions here: [https://github.com/ajkagy/xls20-bridge-validator](https://github.com/ajkagy/xls20-bridge-validator)
+    - If all 3 validators are running on the same machine for testing purposes, install each validator in a separate folder.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
