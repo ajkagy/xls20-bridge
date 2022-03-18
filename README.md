@@ -44,9 +44,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Bridge Architecture](https://github.com/ajkagy/xls20-bridge/blob/master/bridge_architecture.png?raw=true)
+![Bridge Architecture](https://github.com/ajkagy/xls20-bridge/blob/master/bridge_architecture_v2.png?raw=true)
 
 A one way proof of concept ERC721 to XLS20 decentralized bridge
+
+![Bridge Flow](https://github.com/ajkagy/xls20-bridge/blob/master/flow.png?raw=true)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
