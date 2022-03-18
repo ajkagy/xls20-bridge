@@ -48,6 +48,8 @@
 
 A one way proof of concept ERC721 to XLS20 decentralized bridge
 
+![Bridge Flow](https://github.com/ajkagy/xls20-bridge/blob/master/flow.png?raw=true)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
