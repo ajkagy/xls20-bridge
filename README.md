@@ -75,6 +75,8 @@ To get a local copy up and running follow the steps to deploy each project based
 + [Git](https://git-scm.com/downloads)
 + [.NET 5.0 Core Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
 + [Visual Studio 2019 or greater](https://visualstudio.microsoft.com/downloads/) (Optional: Only for debugging the Bridge Master Process)
++ [Infura Account](https://infura.io/)
++ [Xumm Dev Account](https://apps.xumm.dev/)
 
 ### Installation
 
